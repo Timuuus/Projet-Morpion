@@ -193,4 +193,38 @@ body {
     }
 }
 
+@media screen and (max-width:488px) {
+    #formulaire {
+        width: 40vh;
+    }
+}
+
+@media screen and (max-width:400px) {
+    #formulaire {
+        width: 30vh;
+        margin: 100px;
+    }
+
+    .box {
+        width: 13vh;
+        height: 13vh;
+    }
+
+    .annonce-box {
+        width: 35vh;
+    }
+}
+
+@media screen and (max-width:312px) {
+    #formulaire {
+        width: 25vh;
+        font-size: 10px;
+    }
+
+    .box {
+        width: 11vh;
+        height: 11vh;
+    }
+}
+
 
