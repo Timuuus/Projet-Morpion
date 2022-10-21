@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu du Morpion</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jco.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Kanit:ital,wght@0,300;1,100&family=Raleway:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>MORPION</h1>
+
+    <div class="morpion-global">
+        <div class="morpion-left">
+            <div class="point j1">Points Joueur 1 = <span class="number1">0</span> </div>
+        </div>
+        
+        <div id="morpion">
+        <div class="line1">
+            <button class="case1 box"></button>
+            <button class="case2 box"></button>
+            <button class="case3 box"></button>
+        </div>
+        <div class="line2">
+            <button class="case4 box"></button>
+            <button class="case5 box"></button>
+            <button class="case6 box"></button>
+        </div>
+        <div class="line3">
+            <button class="case7 box"></button>
+            <button class="case8 box"></button>
+            <button class="case9 box"></button>
+        </div>
+        </div>
+    
+        <div class="morpion-right">
+            <div class="point j2">Points Joueur 2 = <span class="number2">0</span></div>
+        </div>
+        </div>
+
+    <div class="annonce-box">
+        <div class="annonce">Au tour du joueur 1</div>
+        <div class="annonce coups">Il reste 9 coups</div>
+        <button class="new-game btn">Nouvelle manche</button>
+        <button class="main-menu btn">Retour au menu principal </button>
+    </div>
+    
+</body>
+</html>

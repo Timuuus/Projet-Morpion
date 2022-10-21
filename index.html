@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joue au Morpion</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="form.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="formulaire">
+    <h1>Bienvenue sur mon jeu du Morpion</h1>
+
+    
+    <h2>Contre qui tu veux jouer ?</h2>
+
+    <div>
+    <input type="radio" id="who-play" name="whoplay" value="joueur" checked>
+        <label for="who-play">Joueur</label>
+
+    <input type="radio" id="who-play2" name="whoplay" value="ordinateur">
+        <label for="who-play2">Ordinateur</label>    
+    </div>
+
+    <h2>Combien de manche gagnante ?</h2>
+
+    <div>
+    <input type="radio" id="how-many-round" name="round" value="1" checked>
+        <label for="how-many-round">BO1</label>
+
+    <input type="radio" id="how-many-round3" name="round" value="2">
+        <label for="how-many-round">BO3</label>
+
+    <input type="radio" id="how-many-round5" name="round" value="3">
+        <label for="how-many-round">BO5</label>
+    </div>
+        
+
+    <button class="play btn">Jouer !</button>
+    
+    </div>
+</body>
+</html>
