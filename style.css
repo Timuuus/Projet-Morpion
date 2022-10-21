@@ -22,7 +22,6 @@ body {
     box-shadow: 3px 3px 8px #444444;
     padding: 20px;
     color: white;
-    font-family: 'Silkscreen', cursive ;
     margin: 20vh;
 }
 
@@ -34,12 +33,10 @@ body {
 
 .morpion-left {
     margin: 50px;
-    font-family: 'Silkscreen', cursive ;
 }
 
 .morpion-right {
     margin: 50px;
-    font-family: 'Silkscreen', cursive ;
 }
 
 .btn {
@@ -127,6 +124,73 @@ body {
 
 .main-menu {
     display: none;
+}
+
+@media screen and (max-width:820px) {
+    #formulaire {
+        width: 50vh;
+    }
+
+    .box {
+        width: 15vh;
+        height: 15vh;
+    }
+
+    .morpion-left, .morpion-right {
+        display: none;
+    }
+
+    #morpion {
+        margin: 10px;
+    }
+}
+@media screen and (max-width:360px) {
+    #formulaire {
+        width: 40vh;
+    }
+
+    .annonce-box {
+        width: 30vh;
+        font-size: 10px;
+    }
+
+    .box {
+        width: 11vh;
+        height: 11vh;
+    }
+
+    .morpion-left, .morpion-right {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    #formulaire {
+        width: 40vh;
+        margin: 15px;
+    }
+
+    .box {
+        width: 11vh;
+        height: 11vh;
+    }
+
+    .annonce-box {
+        width: 40vh;
+        font-size: 15px;
+    }
+
+    .line1, .line2, .line3 {
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width:1108px) {
+    .morpion-left, .morpion-right {
+        display: none;
+    }
 }
 
 
